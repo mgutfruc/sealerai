@@ -7,9 +7,9 @@ WORKDIR /backend
 COPY requirements.txt /backend
 #COPY requirements.txt requirements.txt
 
-ENV http_proxy http://internet.ford.com:83
-ENV https_proxy http://internet.ford.com:83
-ENV no_proxy "localhost, 127.0.0.1, .ford.com"
+#ENV http_proxy http://internet.ford.com:83
+#ENV https_proxy http://internet.ford.com:83
+#ENV no_proxy "localhost, 127.0.0.1, .ford.com"
 
 RUN pip3 install -r requirements.txt
 
