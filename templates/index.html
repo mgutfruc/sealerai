@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <form class="grid" action="/calc2" method="POST">
+
+            {%if response%}
+            <div>
+                <!--
+                <h3 class="let_space">Result is: {{response}}</h3>
+                -->
+                <img src={{url_for("static",filename="0.png")}} alt="Stylized image">
+            </div>
+            {%endif%}
+            <!--
+            <label for="number">Enter Number:</label>
+            <input type="text" id="number" name="number">
+            -->
+            <label for="content">Enter content path:</label>
+            <input type="text" id="content" name="content">
+            <label for="style">Enter style path:</label>
+            <input type="text" id="style" name="style">
+            <div>
+                <input class="file_submit" type="submit">
+            </div>
+            
+        </form>
+    </body>
+
+</html>
