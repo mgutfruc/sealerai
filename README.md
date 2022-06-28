@@ -8,4 +8,4 @@ Evals them with the ML models and (saves the results to a db - not implemented y
 
 ## Current issues
 
-Does not run in parallel 
+Does not run in parallel !!
